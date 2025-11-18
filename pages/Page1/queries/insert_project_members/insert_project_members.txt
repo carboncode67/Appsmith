@@ -1,0 +1,4 @@
+INSERT INTO lab.project_members (project_id, person_id)
+SELECT
+  {{ this.params.project_id_param }} AS project_id,
+  unnest({{ this.params.member_ids_param }}) AS member_id;

@@ -1,0 +1,42 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "alignWidget": "LEFT",
+  "animateLoading": true,
+  "bottomRow": 14,
+  "boxShadow": "none",
+  "defaultSwitchState": true,
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicTriggerPathList": [],
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "xrrfu6x95m",
+  "label": "Multiple Locations/Fields",
+  "labelPosition": "Left",
+  "leftColumn": 39,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "mobileBottomRow": 27,
+  "mobileLeftColumn": 1,
+  "mobileRightColumn": 13,
+  "mobileTopRow": 23,
+  "needsErrorInfo": false,
+  "originalBottomRow": 30,
+  "originalTopRow": 10,
+  "parentColumnSpace": 6.080078125,
+  "parentId": "jjesn65q65",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 64,
+  "topRow": 10,
+  "type": "SWITCH_WIDGET",
+  "version": 1,
+  "widgetId": "tuwx2ez2j6",
+  "widgetName": "swMultipleLocations"
+}

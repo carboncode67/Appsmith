@@ -1,0 +1,5 @@
+SELECT 1
+FROM lab.project_intake
+WHERE lower(project_name) = lower({{ this.params.project_name }})
+LIMIT 1;
+

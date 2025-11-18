@@ -1,0 +1,10 @@
+INSERT INTO lab.project_intake
+  (project_name, multiple_locations, start_year, notes)
+VALUES
+  (
+    {{ this.params.project_name }},
+    {{ this.params.multiple_locations }},
+    {{ this.params.start_year }},
+    {{ this.params.notes }}
+  )
+RETURNING project_id;

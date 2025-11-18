@@ -1,0 +1,4 @@
+-- get_lab_members
+SELECT person_id, full_name
+FROM lab.lab_members
+ORDER BY full_name;
