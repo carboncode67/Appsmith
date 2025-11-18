@@ -5,7 +5,7 @@
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "INSERT INTO lab.project_members (project_id, person_id)\nSELECT\n  {{ this.params.project_id_param }} AS project_id,\n  unnest({{ this.params.member_ids_param }}) AS member_id;\n",
+      "body": "INSERT INTO lab.project_members (project_id, person_id)\nSELECT\n  {{ this.params.project_id_param }}::int     AS project_id,\n  unnest({{ this.params.member_ids_param }})::int AS person_id;\n",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
